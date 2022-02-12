@@ -74,7 +74,6 @@
      <Compile Include="Assets\Scripts\PlatformSelector.cs" />
      <Compile Include="Assets\Enjin\SDK\Core\EnjinPlatform.cs" />
      <Compile Include="Assets\Enjin\Plugins\SimpleJSON\SimpleJSON.cs" />
-     <Compile Include="Assets\Scripts\NewSDKTest.cs" />
      <Compile Include="Assets\Enjin\SDK\Core\EnjinClasses.cs" />
      <Compile Include="Assets\Enjin\SDK\Utility\EnjinHelpers.cs" />
      <Compile Include="Assets\Enjin\Enjin SDK\Simple Game\StopShaking.cs" />
