@@ -1,0 +1,503 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.8f1 (d0e5f0a7b06a) revision 13690352'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/Unity Projects/Enjin-Unity-sample/Enjin Test Project
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+51426
+Successfully changed project path to: D:/Unity Projects/Enjin-Unity-sample/Enjin Test Project
+D:/Unity Projects/Enjin-Unity-sample/Enjin Test Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 23.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.8f1 (d0e5f0a7b06a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Enjin-Unity-sample/Enjin Test Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8043 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006279 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 21.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.485 seconds
+Domain Reload Profiling:
+	ReloadAssembly (485ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (84ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (199ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (21ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003010 seconds.
+Begin MonoManager ReloadAssembly
+Unable to load attribute info on class Enjin.SDK.IPlayerService. Are you missing a reference?
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff71195b4b5 (Unity) ScanAssemblyForAttributesAndInterfaceImplementations
+0x00007ff71195b92f (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff7119893e3 (Unity) MonoManager::SetupTypeCache
+0x00007ff71197e933 (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff7125a0f0b (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Plugins/EnjinSDK/EnjinCSharpSDK.dll, this assembly can cause crashes in the runtime
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff711988d4e (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff71197eccd (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff7125a0f0b (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (709ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (529ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 872 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (56.1 KB). Loaded Objects now: 1334.
+Memory consumption went from 51.6 MB to 51.5 MB.
+Total: 2.374600 ms (FindLiveObjects: 0.136100 ms CreateObjectMapping: 0.021000 ms MarkObjects: 2.133400 ms  DeleteObjects: 0.083500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 503639.168079 seconds.
+  path: Assets/Plugins/EnjinSDK/EnjinCSharpSDK.pdb
+  artifactKey: Guid(ec80b184647caba4baa9729ec8496301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/EnjinSDK/EnjinCSharpSDK.pdb using Guid(ec80b184647caba4baa9729ec8496301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd458f29945832c9d54c7e503ff4b41f4') in 0.027546 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003742 seconds.
+Begin MonoManager ReloadAssembly
+Unable to load attribute info on class Enjin.SDK.IPlayerService. Are you missing a reference?
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff71195b4b5 (Unity) ScanAssemblyForAttributesAndInterfaceImplementations
+0x00007ff71195b92f (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff7119893e3 (Unity) MonoManager::SetupTypeCache
+0x00007ff71197e933 (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff712d2d898 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff712dc2252 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff712dc44dd (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff712dc78fe (Unity) asio::io_service::run
+0x00007ff712dc06f1 (Unity) IOService::Run
+0x00007ff712d59de8 (Unity) RunAssetImportWorkerClientV2
+0x00007ff712d59ebb (Unity) RunAssetImporterV2
+0x00007ff7125a0f10 (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Plugins/EnjinSDK/EnjinCSharpSDK.dll, this assembly can cause crashes in the runtime
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff711988d4e (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff71197eccd (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff712d2d898 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff712dc2252 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff712dc44dd (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff712dc78fe (Unity) asio::io_service::run
+0x00007ff712dc06f1 (Unity) IOService::Run
+0x00007ff712d59de8 (Unity) RunAssetImportWorkerClientV2
+0x00007ff712d59ebb (Unity) RunAssetImporterV2
+0x00007ff7125a0f10 (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (641ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (439ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (195ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 853 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 1336.
+Memory consumption went from 50.2 MB to 50.2 MB.
+Total: 2.218300 ms (FindLiveObjects: 0.122700 ms CreateObjectMapping: 0.022300 ms MarkObjects: 2.051400 ms  DeleteObjects: 0.020900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004458 seconds.
+Begin MonoManager ReloadAssembly
+Unable to load attribute info on class Enjin.SDK.IPlayerService. Are you missing a reference?
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff71195b4b5 (Unity) ScanAssemblyForAttributesAndInterfaceImplementations
+0x00007ff71195b92f (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff7119893e3 (Unity) MonoManager::SetupTypeCache
+0x00007ff71197e933 (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff712d2d898 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff712dc2252 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff712dc44dd (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff712dc78fe (Unity) asio::io_service::run
+0x00007ff712dc06f1 (Unity) IOService::Run
+0x00007ff712d59de8 (Unity) RunAssetImportWorkerClientV2
+0x00007ff712d59ebb (Unity) RunAssetImporterV2
+0x00007ff7125a0f10 (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Plugins/EnjinSDK/EnjinCSharpSDK.dll, this assembly can cause crashes in the runtime
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff711988d4e (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff71197eccd (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff712d2d898 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff712dc2252 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff712dc44dd (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff712dc78fe (Unity) asio::io_service::run
+0x00007ff712dc06f1 (Unity) IOService::Run
+0x00007ff712d59de8 (Unity) RunAssetImportWorkerClientV2
+0x00007ff712d59ebb (Unity) RunAssetImporterV2
+0x00007ff7125a0f10 (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (626ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (435ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (191ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 853 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 1338.
+Memory consumption went from 50.1 MB to 50.1 MB.
+Total: 2.463000 ms (FindLiveObjects: 0.125200 ms CreateObjectMapping: 0.027300 ms MarkObjects: 2.291700 ms  DeleteObjects: 0.017100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003261 seconds.
+Begin MonoManager ReloadAssembly
+Unable to load attribute info on class Enjin.SDK.IPlayerService. Are you missing a reference?
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff71195b4b5 (Unity) ScanAssemblyForAttributesAndInterfaceImplementations
+0x00007ff71195b92f (Unity) ScanForAttributesAndInterfaceImplementations
+0x00007ff7119893e3 (Unity) MonoManager::SetupTypeCache
+0x00007ff71197e933 (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff712d2d898 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff712dc2252 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff712dc44dd (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff712dc78fe (Unity) asio::io_service::run
+0x00007ff712dc06f1 (Unity) IOService::Run
+0x00007ff712d59de8 (Unity) RunAssetImportWorkerClientV2
+0x00007ff712d59ebb (Unity) RunAssetImporterV2
+0x00007ff7125a0f10 (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Unloading broken assembly Assets/Plugins/EnjinSDK/EnjinCSharpSDK.dll, this assembly can cause crashes in the runtime
+0x00007ff711a8f64d (Unity) StackWalker::GetCurrentCallstack
+0x00007ff711a963a9 (Unity) StackWalker::ShowCallstack
+0x00007ff7129e1ea3 (Unity) GetStacktrace
+0x00007ff713064e0d (Unity) DebugStringToFile
+0x00007ff711988d4e (Unity) MonoManager::SetupLoadedEditorAssemblies
+0x00007ff71197eccd (Unity) MonoManager::EndReloadAssembly
+0x00007ff7119866f8 (Unity) MonoManager::ReloadAssembly
+0x00007ff71289dcc2 (Unity) LoadDomainAndUserAssemblies
+0x00007ff71289e3f4 (Unity) LoadUserAssemblies
+0x00007ff712d2d898 (Unity) <lambda_c8aac203af85da22e031a8e6d38250eb>::operator()
+0x00007ff712dc2252 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff712dc44dd (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff712dc78fe (Unity) asio::io_service::run
+0x00007ff712dc06f1 (Unity) IOService::Run
+0x00007ff712d59de8 (Unity) RunAssetImportWorkerClientV2
+0x00007ff712d59ebb (Unity) RunAssetImporterV2
+0x00007ff7125a0f10 (Unity) Application::InitializeProject
+0x00007ff7129ec608 (Unity) WinMain
+0x00007ff713cfd942 (Unity) __scrt_common_main_seh
+0x00007ffeff717034 (KERNEL32) BaseThreadInitThunk
+0x00007ffeff8e2651 (ntdll) RtlUserThreadStart
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.674 seconds
+Domain Reload Profiling:
+	ReloadAssembly (675ms)
+		BeginReloadAssembly (155ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (422ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (130ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (176ms)
+				LogAssemblyErrors (1ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (34ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 853 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (24.6 KB). Loaded Objects now: 1340.
+Memory consumption went from 50.1 MB to 50.1 MB.
+Total: 2.683000 ms (FindLiveObjects: 0.100400 ms CreateObjectMapping: 0.021500 ms MarkObjects: 2.544700 ms  DeleteObjects: 0.015400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
